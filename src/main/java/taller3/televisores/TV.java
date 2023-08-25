@@ -40,10 +40,10 @@ public class TV {
 	public boolean getEstado () {
 		return this.estado;
 	}
-	public void setCanal (int canal) {
+	public void setCanal (int a) {
 		if (this.estado) {
-			if (canal>0 && canal<121) {
-				this.canal = canal;
+			if (a>0 && a<121) {
+				this.canal = a;
 			}
 		}
 	}
@@ -52,10 +52,10 @@ public class TV {
 		this.precio = precio;
 	}
 	
-	public void setVolumen (int volumen) {
+	public void setVolumen (int v) {
 		if (this.estado) {
-			if (volumen>=0 && volumen<=7) {	
-				this.volumen = volumen;
+			if (v>=0 && v<=7) {	
+				this.volumen = v;
 			}
 		}
 	}
