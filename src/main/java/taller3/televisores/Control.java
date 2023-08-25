@@ -14,10 +14,10 @@ public class Control {
 		tv.setControl(this);
 	}
 	public void turnOn () {
-		tv.turnOn();
+		this.tv.turnOn();
 	}
 	public void turnOff () {
-		tv.turnOff();
+		this.tv.turnOff();
 	}
 	public void canalUp() {
 		tv.canalUp();

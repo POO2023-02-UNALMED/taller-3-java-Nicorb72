@@ -73,7 +73,7 @@ public class TV {
 		}	
 	}
 	public void turnOff() {
-		if (this.estado );{
+		if (this.estado);{
 			this.estado = false;
 		}	
 	}
@@ -83,7 +83,7 @@ public class TV {
 		}
 	}
 	public void canalDown () {
-		if (this.estado  && this.canal>1); {
+		if (this.estado  && this.canal>=1); {
 			this.canal-- ;
 		}
 	}
