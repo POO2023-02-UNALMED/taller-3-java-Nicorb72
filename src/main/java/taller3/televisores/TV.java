@@ -87,7 +87,7 @@ public class TV {
 			this.canal-- ;
 		}
 	}
-	public void volumenlUp () {
+	public void volumenUp () {
 		if (this.estado  && this.volumen < 7); {
 			this.volumen++ ;
 		}
