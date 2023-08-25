@@ -60,32 +60,32 @@ public class TV {
 		TV.numTV = numTV;
 	}
 	public void turnOn() {
-		if (this.estado != true);{
+		if (!this.estado);{
 			this.estado = true;
 		}	
 	}
 	public void turnOff() {
-		if (this.estado != false);{
+		if (this.estado );{
 			this.estado = false;
 		}	
 	}
 	public void canalUp () {
-		if (this.estado == true && this.canal < 120); {
+		if (this.estado  && this.canal < 120); {
 			this.canal++ ;
 		}
 	}
 	public void canalDown () {
-		if (this.estado == true && this.canal > 1); {
+		if (this.estado  && this.canal > 1); {
 			this.canal-- ;
 		}
 	}
 	public void volumenlUp () {
-		if (this.estado == true && this.volumen < 7); {
+		if (this.estado  && this.volumen < 7); {
 			this.volumen++ ;
 		}
 	}
 	public void volumenDown () {
-		if (this.estado == true && this.volumen > 0); {
+		if (this.estado  && this.volumen > 0); {
 			this.volumen-- ;
 		}
 	}
