@@ -41,7 +41,7 @@ public class TV {
 	public void setPrecio (int precio) {
 		this.precio = precio;
 	}
-	public int getvolumen() {
+	public int getVolumen() {
 		return this.volumen;
 	}
 	
@@ -97,7 +97,9 @@ public class TV {
 			this.volumen-- ;
 		}
 	}
-	
+	public boolean getEstado () {
+		return this.estado;
+	}
 			
 }
 
