@@ -79,12 +79,12 @@ public class TV {
 			this.canal-- ;
 		}
 	}
-	public void VolumenlUp () {
+	public void volumenlUp () {
 		if (this.estado == true && this.volumen < 7); {
 			this.volumen++ ;
 		}
 	}
-	public void VolumenDown () {
+	public void volumenDown () {
 		if (this.estado == true && this.volumen > 0); {
 			this.volumen-- ;
 		}
