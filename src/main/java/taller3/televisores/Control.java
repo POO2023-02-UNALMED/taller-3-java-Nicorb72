@@ -11,31 +11,31 @@ public class Control {
 	}
 	public void enlazar (TV tv) {
 		this.tv = tv;
-		tv.setControl(this);
+		this.tv.setControl(this);
 	}
 	public void turnOn () {
-		tv.turnOn();
+		this.tv.turnOn();
 	}
 	public void turnOff () {
-		tv.turnOff();
+		this.tv.turnOff();
 	}
 	public void canalUp() {
-		tv.canalUp();
+		this.tv.canalUp();
 	}
 	public void canalDown() {
-		tv.canalDown();
+		this.tv.canalDown();
 	}
 	public void volumenUp() {
-		tv.volumenlUp();
+		this.tv.volumenlUp();
 	}
 	public void volumenDown() {
-		tv.volumenDown();
+		this.tv.volumenDown();
 	}
 	public void setVolumen (int volumen) {
-		tv.setVolumen(volumen);
+		this.tv.setVolumen(volumen);
 	}
 	public void setCanal (int canal) {
-		tv.setCanal(canal);
+		this.tv.setCanal(canal);
 	}
 
 
