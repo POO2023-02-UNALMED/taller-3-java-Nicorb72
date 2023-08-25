@@ -82,18 +82,18 @@ public class TV {
 		}	
 	}
 	public void canalUp () {
-		if (this.getEstado() && this.canal<120); {
+		if (this.getEstado() && this.getCanal()<120); {
 			this.canal++ ;
 		}
 	}
 	public void canalDown () {
-		if (this.getEstado() && this.getCanal()>=1); {
-			this.setCanal(this.getCanal()+1);
+		if (this.getEstado() && this.getCanal()>0); {
+			this.setCanal(this.getCanal()-1);
 		}
 	}
 	public void volumenUp () {
 		if (this.getEstado()  && this.getVolumen()<7); {
-			this.setCanal(this.getCanal()-1);
+			this.setVolumen(this.getVolumen()+1);
 		}
 	}
 	public void volumenDown () {
