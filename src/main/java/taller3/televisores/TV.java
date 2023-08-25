@@ -93,7 +93,7 @@ public class TV {
 		}
 	}
 	public void volumenDown () {
-		if (this.estado  && this.volumen > 0); {
+		if (this.estado  && this.volumen >= 1); {
 			this.volumen-- ;
 		}
 	}
